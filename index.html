@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scholar's Square — Premium Student Housing near Cavendish University</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="site-header" id="top">
+    <nav class="nav-container">
+      <a href="#top" class="logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">Scholar's Square</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Premium Student Housing in Kampala</p>
+      <h1 class="hero-title">Your Home Away<br>From Home</h1>
+      <p class="hero-subtitle">Safe, affordable, and modern housing just minutes from Cavendish University. Focus on
+        your studies — we'll take care of the rest.</p>
+      <a href="#rooms" class="btn btn-primary">Book Now</a>
+    </div>
+  </section>
+
+  <!-- ========== TRUST BAR ========== -->
+  <section class="trust-bar">
+    <div class="trust-bar-inner">
+      <div class="trust-item">
+        <span class="trust-icon">&#9733;</span>
+        <div>
+          <strong>500+</strong>
+          <span>Students Housed</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#9829;</span>
+        <div>
+          <strong>98%</strong>
+          <span>Satisfaction Rate</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#9679;</span>
+        <div>
+          <strong>24/7</strong>
+          <span>On-Site Security</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#10003;</span>
+        <div>
+          <strong>5 min</strong>
+          <span>Walk to Campus</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ROOM CATEGORIES ========== -->
+  <section class="rooms" id="rooms">
+    <div class="container">
+      <p class="section-tag">Our Rooms</p>
+      <h2 class="section-title">Find Your Perfect Space</h2>
+      <p class="section-subtitle">Whether you prefer privacy or camaraderie, we have a room that fits your lifestyle and
+        budget.</p>
+
+      <div class="rooms-grid">
+        <!-- Single Room -->
+        <article class="room-card">
+          <div class="room-image room-image--single">
+            <span class="room-badge">Popular</span>
+          </div>
+          <div class="room-body">
+            <h3 class="room-name">Single Rooms</h3>
+            <p class="room-desc">A private retreat designed for focused study. Includes a comfortable single bed,
+              built-in desk, wardrobe, and en-suite bathroom.</p>
+            <ul class="room-features">
+              <li>Private en-suite bathroom</li>
+              <li>Built-in study desk &amp; chair</li>
+              <li>Wardrobe &amp; shelving</li>
+            </ul>
+            <div class="room-pricing">
+              <span class="room-price">UGX 800,000</span>
+              <span class="room-period">/ semester</span>
+            </div>
+            <a href="#contact" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+
+        <!-- Shared Studio -->
+        <article class="room-card room-card--featured">
+          <div class="room-image room-image--shared">
+            <span class="room-badge room-badge--featured">Best Value</span>
+          </div>
+          <div class="room-body">
+            <h3 class="room-name">Shared Studios</h3>
+            <p class="room-desc">Share with a like-minded student in our dual-occupancy studios. Two separate sleeping
+              areas with a communal kitchenette and lounge.</p>
+            <ul class="room-features">
+              <li>Separate sleeping zones</li>
+              <li>Shared kitchenette</li>
+              <li>Communal lounge area</li>
+            </ul>
+            <div class="room-pricing">
+              <span class="room-price">UGX 550,000</span>
+              <span class="room-period">/ semester</span>
+            </div>
+            <a href="#contact" class="btn btn-primary">View Details</a>
+          </div>
+        </article>
+
+        <!-- Premium Suite -->
+        <article class="room-card">
+          <div class="room-image room-image--premium">
+            <span class="room-badge">Luxury</span>
+          </div>
+          <div class="room-body">
+            <h3 class="room-name">Premium Suites</h3>
+            <p class="room-desc">Our top-tier suites offer generous living space, a private kitchen, lounge, and
+              panoramic views. Designed for students who want the very best.</p>
+            <ul class="room-features">
+              <li>Full private kitchen</li>
+              <li>Separate lounge &amp; dining</li>
+              <li>Balcony with campus views</li>
+            </ul>
+            <div class="room-pricing">
+              <span class="room-price">UGX 1,400,000</span>
+              <span class="room-period">/ semester</span>
+            </div>
+            <a href="#contact" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AMENITIES ========== -->
+  <section class="amenities" id="amenities">
+    <div class="container">
+      <p class="section-tag">Why Choose Us</p>
+      <h2 class="section-title">Everything You Need to Thrive</h2>
+      <p class="section-subtitle">We've thought of every detail so you can focus on what matters most — your education.
+      </p>
+
+      <div class="amenities-grid">
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <span>&#9681;</span>
+          </div>
+          <h3>High-Speed Wi-Fi</h3>
+          <p>Fiber-optic internet throughout the building with speeds up to 100 Mbps — perfect for lectures, research,
+            and streaming.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <span>&#9879;</span>
+          </div>
+          <h3>24/7 Security</h3>
+          <p>Round-the-clock on-site guards, CCTV surveillance, and electronic key-card access for your complete peace
+            of mind.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <span>&#9992;</span>
+          </div>
+          <h3>Campus Shuttles</h3>
+          <p>Free scheduled shuttle service to and from Cavendish University — never be late for a lecture again.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <span>&#9998;</span>
+          </div>
+          <h3>Study Lounges</h3>
+          <p>Dedicated quiet zones and group study rooms with whiteboards, power outlets, and ergonomic seating.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <span>&#9775;</span>
+          </div>
+          <h3>Fitness Centre</h3>
+          <p>Stay active with our on-site gym featuring cardio machines, free weights, and yoga space — included in your
+            rent.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <span>&#9749;</span>
+          </div>
+          <h3>Common Kitchen</h3>
+          <p>A fully equipped communal kitchen for when you want to cook your favourite meals and bond with fellow
+            residents.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <span>&#9830;</span>
+          </div>
+          <h3>Laundry Facility</h3>
+          <p>On-site washing machines and dryers so you can take care of laundry without leaving the building.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">
+            <span>&#9786;</span>
+          </div>
+          <h3>Social Events</h3>
+          <p>Regular community events, movie nights, and cultural celebrations to help you make friends and feel at
+            home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials">
+    <div class="container">
+      <p class="section-tag">Student Voices</p>
+      <h2 class="section-title">Hear From Our Residents</h2>
+
+      <div class="testimonials-grid">
+        <blockquote class="testimonial-card">
+          <p class="testimonial-text">"Moving to Scholar's Square was the best decision I made. The Wi-Fi is fast, the
+            security makes my parents happy, and I've made friends for life here."</p>
+          <footer class="testimonial-author">
+            <div class="author-avatar">AN</div>
+            <div>
+              <cite>Aisha Nakamya</cite>
+              <span>Law Student, Year 3</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial-card">
+          <p class="testimonial-text">"The shuttle service means I never miss an 8 AM lecture. Plus, the study lounge is
+            my second home during exam season. Absolutely worth it."</p>
+          <footer class="testimonial-author">
+            <div class="author-avatar">JO</div>
+            <div>
+              <cite>Joshua Okello</cite>
+              <span>Business Student, Year 2</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial-card">
+          <p class="testimonial-text">"I was nervous about moving to Kampala, but Scholar's Square felt like home from
+            day one. The community events really help you settle in quickly."</p>
+          <footer class="testimonial-author">
+            <div class="author-avatar">GM</div>
+            <div>
+              <cite>Grace Muhwezi</cite>
+              <span>Medicine Student, Year 1</span>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p class="section-tag">Get In Touch</p>
+          <h2 class="section-title">Ready to Secure Your Room?</h2>
+          <p>Fill out the form and our team will get back to you within 24 hours with availability and next steps. You
+            can also visit us on campus or give us a call.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="detail-icon">&#9993;</span>
+              <div>
+                <strong>Email</strong>
+                <span>hello@scholarssquare.ug</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="detail-icon">&#9742;</span>
+              <div>
+                <strong>Phone</strong>
+                <span>+256 700 123 456</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="detail-icon">&#9873;</span>
+              <div>
+                <strong>Location</strong>
+                <span>Gaba Road, Kampala — Near Cavendish University</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" placeholder="e.g. Aisha Nakamya" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="e.g. aisha@student.cavendish.ac.ug" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="e.g. +256 700 123 456">
+          </div>
+          <div class="form-group">
+            <label for="room-type">Preferred Room Type</label>
+            <select id="room-type" name="room-type" required>
+              <option value="" disabled selected>Select a room type</option>
+              <option value="single">Single Room — UGX 800,000/semester</option>
+              <option value="shared">Shared Studio — UGX 550,000/semester</option>
+              <option value="premium">Premium Suite — UGX 1,400,000/semester</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Message</label>
+            <textarea id="message" name="message" rows="4"
+              placeholder="Any questions or special requirements?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Submit Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#top" class="logo">
+            <span class="logo-icon">&#9670;</span>
+            <span class="logo-text">Scholar's Square</span>
+          </a>
+          <p>Premium student housing designed for the scholars of tomorrow. Safe, affordable, and steps from Cavendish
+            University.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#rooms">Pricing</a></li>
+            <li><a href="#amenities">Facilities</a></li>
+            <li><a href="#contact">Book a Tour</a></li>
+            <li><a href="#contact">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Twitter">t</a>
+            <a href="#" class="social-link" aria-label="Instagram">in</a>
+            <a href="#" class="social-link" aria-label="WhatsApp">w</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Scholar's Square. All rights reserved. | Gaba Road, Kampala, Uganda</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
